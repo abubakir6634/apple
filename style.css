@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 45px;
+    background-color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+header a {
+    color: #eee;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header i {
+    color: #eee;
+}
+
+/* banner */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./banner2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.banner .text {
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.banner .text p {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.banner .text button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    background-color: #eee;
+    font-size: 18px;
+}
+
+.gift {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.gift .text1 h1 {
+    text-align: center;
+}
+
+.gift .text1 p {
+    text-align: center;
+}
+
+.iPhone14 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(./iphone.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 290px;
+    text-align: center;
+}
+
+.iPhone14 .text2 h1 {
+    color: #fff;
+}
+
+.iPhone14 .text2 h4 {
+    color: #fff;
+}
+
+.iPhone14 .text2 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.iphone {
+    width: 100%;
+    height: 80vh;
+    background-image: url(./iphone15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 290px;
+    text-align: center;
+}
+
+.iphone .text3 h1 {
+    padding-bottom: 15px;
+}
+
+.iphone .text3 h3 {
+    padding-bottom: 208px;
+}
+
+.iphone .text3 a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* watch */
+
+.watch {
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 80px;
+    padding-bottom: 290px;
+    text-align: center;
+}
+
+.watch .btn {
+    width: 49%;
+    height: 70vh;
+    color: #fff;
+    background-position: center;
+    background-image: url(./iphone\ 15\ pro.jpg);
+}
+
+.watch .btn a {
+    text-decoration: none;
+    color: blue;
+}
+
+.watch .btn1 {
+    width: 49%;
+    height: 70vh;
+    color: #000000;
+    background-position: center;
+    background-image: url(https://www.apple.com/v/home/bg/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg);
+}
+
+.watch .btn1 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.Pods {
+    width: 100%;
+    height: 85vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 290px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Pods .btn1 {
+    width: 49%;
+    height: 70vh;
+    color: #000000;
+    background-position: center;
+    background-image: url(./watch.jpg);
+}
+
+
+.Pods .btn2 {
+    width: 49%;
+    height: 70vh;
+    color: #000000;
+    background-position: center;
+    background-image: url(./watch.jpg);
+}
+
+.Pods .btn2 a {
+    text-decoration: none;
+    color: blue;
+}
+
+.Pods .btn3 {
+    width: 49%;
+    height: 70vh;
+    background-position: center;
+    background-image: url(./carbon.jpg);
+}
+
+.Pods .btn3 a {
+    text-decoration: none;
+    color: blue;
+}
+
+/* card */
+
+.card {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    text-align: center;
+}
+
+.card .left {
+    width: 50%;
+    height: 100%;
+    padding-top: 80px;
+    background-image: url(./card.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.card .right {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    padding-top: 80px;
+    background-position: center;
+    background-image: url(./trade.jpg);
+
+}
+
+/* carousel */
+
+
+.carousel {
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.carousel .carousel-item{
+    width: 80%;
+}
+
+/* lorem1 */
+
+.lorem1 {
+    width: 100%;
+    height: 70vh;
+    margin-top: 30px;
+}
+
+.lorem1 p {
+    color: #7a7a7a;
+    margin: 5px 150px;
+}
+
+.lorem1 hr {
+    margin: 5px 111px;
+}
+
+.lorem1 h5 {
+    margin: 5px 140px;
+}
+
+.lorem1 h5 {
+    color: #505050;
+}
+
+.lorem1 ul {
+    color: #7a7a7a;
+    /* margin: 5px 150px; */
+    list-style: none;
+}
+
+.lorem1 a {
+    text-decoration: none;
+    color: #9a9a9a;
+}
+
+.lorem1 p .ft {
+    color: blue;
+}
+
+.footer_link{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_link ul{
+    width: 300px;
+}
